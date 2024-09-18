@@ -1,0 +1,61 @@
+<section id="sobremi" class="sobremi">
+  <div class="contenido-seccion">
+    <h2>Sobre Mí</h2>
+    <p><span>Hola, soy Johan Barzallo. </span>Profesional de ingenieria en sistemas,
+      Desarrollador Web / Programador Web / Administrador de Base de datos / Frontend / Backend / Helpdesk</p>
+    <p>Disfruto llevar a cabo la maquetacion e interactividad de interfaces web, asi como la optimización, para el buen
+      posicionamieno y rendimiento de sitios web.</p>
+    <div class="fila">
+      <!-- Datos Personales -->
+      <div class="colDer">
+        <h3>Datos Personales</h3>
+        <ul>
+          <li>
+            <strong>Teléfono:</strong> 0959852274
+          </li>
+          <li>
+            <strong>Email:</strong> {{ 'arielbarzallo-97' }}&#64;{{ 'hotmail.com' }}
+          </li>
+          <li>
+            <strong>Dirección:</strong> Guayas, Durán
+          </li>
+          <li>
+            <strong>Cargo:</strong> <span>Ingeniero de Software</span>
+          </li>
+        </ul>
+
+        <!-- Sección de Formación Académica abajo de Datos Personales -->
+        <h3 class="mt-3">Formación Académica</h3>
+        <ul>
+          <li>
+            <strong>Título Universitario:</strong>  Ingeniería en Sistemas Computacionales
+          </li>
+          <li>
+            <strong>Maestría:</strong> Máster en Ingeniería de Software y Sistemas Informáticos
+          </li>
+        </ul>
+
+        <!-- Botón de Descargar CV al final -->
+        <a href="assets/archivo/cv.pdf" download>
+          <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+          </button>
+        </a>
+      </div>
+
+
+      <!-- Intereses -->
+      <div class="colIzq">
+        <h3>Intereses</h3>
+        <div class="contenedor-intereses">
+          <div class="interes" *ngFor="let interes of interests">
+            <i [class]="interes.icon"></i>
+            <span>{{ interes.name }}</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

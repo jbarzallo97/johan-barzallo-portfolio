@@ -1,0 +1,13 @@
+<section id="portfolio" class="portfolio">
+  <div class="contenido-seccion">
+    <h2>PORTAFOLIO</h2>
+    <div class="galeria">
+      <div class="proyecto" *ngFor="let item of portfolioItems">
+        <a [href]="item.link" target="_blank">
+          <img [src]="item.image" [alt]="item.altText">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+

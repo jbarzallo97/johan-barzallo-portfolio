@@ -1,0 +1,36 @@
+<section id="curriculum" class="curriculum">
+  <div class="contenido-seccion">
+    <h2>Curriculum</h2>
+    <div class="fila">
+      <!-- Columna Derecha - Experiencia de trabajo -->
+      <div class="col izquierda">
+        <h3>Experiencia de Trabajo</h3>
+        <div *ngFor="let work of workExperience" class="item izq">
+          <h4>{{ work.title }}</h4>
+          <span class="casa">{{ work.company }}</span>
+          <span class="fecha">{{ work.date }}</span>
+          <ul>
+            <li *ngFor="let desc of work.description">{{ desc }}</li>
+          </ul>
+          <div class="conectori">
+            <div class="circuloi"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Columna Izquierda - Educación -->
+      <div class="col derecha">
+        <h3>Cursos</h3>
+        <div *ngFor="let course of courses" class="item der">
+          <h4>{{ course.title }}</h4>
+          <span class="casa">{{ course.institution }}</span>
+          <span class="fecha">{{ course.date }}</span>
+          <div class="conectord">
+            <div class="circulod"></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
