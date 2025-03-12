@@ -21,6 +21,16 @@ export class PortfolioComponent {
       link: 'https://johanb1997.github.io/angular-imagen-gif/',
       image: 'assets/img/portfolio3.png',
       altText: 'Proyecto 3'
+    },
+    {
+      link: 'https://johanb1997.github.io/country-App/',
+      image: 'assets/img/portfolio4.png',
+      altText: 'Proyecto 4'
+    },
+    {
+      link: 'https://johanb1997.github.io/pipes-app/',
+      image: 'assets/img/portfolio5.png',
+      altText: 'Proyecto 5'
     }
   ];
 }

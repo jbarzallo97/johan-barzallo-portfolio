@@ -7,24 +7,28 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
   skills: string[] = [
-    'HTML/CSS/JS',
-    'BootStrap',
-    'Tailwind',
-    'TypeScript',
+    'Project Manager',
+    'Scrum Master',
+    'Full Stack Developer',
+    'Software Project Management',
+    'Web Development',
     'Angular',
     'React',
+    'TypeScript',
     'Node JS',
-    'PHP',
-    'Postman',
-    'Git',
-    'Docker',
-    'Dart',
     'Flutter',
-    'UML',
+    'Dart',
+    'PHP',
     'SQL',
     'MongoDB',
+    'Git',
+    'Docker',
     'Linux',
-    'Software Project Management',
-    'Web Development'
+    'Postman',
+    'HTML/CSS/JS',
+    'Tailwind',
+    'BootStrap',
+    'UML'
   ];
+
 }
