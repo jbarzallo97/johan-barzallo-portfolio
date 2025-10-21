@@ -9,34 +9,39 @@ export class CurriculumComponent {
    // Datos de educación
    courses = [
     {
+      title: 'Angular: De cero a experto - Edición 2025',
+      institution: 'Udemy',
+      date: '2025',
+    },
+    {
+      title: 'Diplomado en IA aplicada a la docencia',
+      institution: 'Universidad de las Américas',
+      date: '2025',
+    },
+    {
       title: 'Curso de NestJS: Programación Modular, Documentación con Swagger y Deploy',
       institution: 'Platzi',
       date: '2024',
-      description: 'Egresado - Validación con la Senescyt'
     },
     {
       title: 'Curso de Backend con NestJS',
       institution: 'Platzi',
       date: '2024',
-      description: 'REGISTRO ACADÉMICO: 1006-2021-2285337'
     },
     {
       title: 'Introduction to Software Product Management',
       institution: 'University of Alberta',
       date: '2024',
-      description: 'REGISTRO ACADÉMICO: 1006-2021-2285337'
     },
     {
       title: 'Programa Desarrollo de Apps Móviles con Flutter',
       institution: 'EELA',
       date: '2024',
-      description: 'REGISTRO ACADÉMICO: 1006-2021-2285337'
     },
     {
       title: 'Curso de Fundamentos y Autenticación con Angular',
       institution: 'Platzi',
       date: '2023',
-      description: 'REGISTRO ACADÉMICO: 1006-2021-2285337'
     },
   ];
 
@@ -47,9 +52,22 @@ export class CurriculumComponent {
       company: 'Telconet S.A.',
       date: 'Abril 2022 - Hasta la actualidad',
       description: [
-        'Desarrollador y diseñador de soluciones de software, especializado en aplicaciones web, móviles, gestión de servidores y control de versiones; con diversos proyectos desplegados (publicados) en un ambiente de producción.',
-        'Líder en la realización de sesiones de capacitación para clientes, garantizando su competencia en el manejo de las aplicaciones y optimizando la experiencia de usuario a través de un soporte técnico contínuo y personalizado.',
-        'Responsable de la creación y mantenimiento de documentación técnica. Esto incluye la realización de pruebas unitarias, levantamiento de requerimientos y análisis de diseño.'
+        'Líder de proyectos.',
+        'Desarrollo de plataforma educativa con JavaScript y backend en PHP.',
+        'Desarrollo con Angular y backend usando Nest.js.',
+        'Consumo e integración de servicios backend IA.',
+        'Integración de servicios de inteligencia artificial en backend con Nest.js.',
+        'Dockerización de aplicaciones y despliegue en servidores Nginx.',
+        'Integración de Seafile como gestor de archivos usando Docker.'
+      ]
+    },
+    {
+      title: 'Docente externo',
+      company: 'Instituto Superior Tecnológico Argos',
+      date: 'Enero 2025 - Agosto 2025',
+      description: [
+        'Impartir clases a nivel técnico superior en carreras tecnológicas del Instituto Argos.',
+        'Participar como docente en el programa de Tecnología Superior Universitaria (TSU)',
       ]
     },
     {
@@ -57,12 +75,9 @@ export class CurriculumComponent {
       company: 'Magicnegsa S.A.',
       date: 'Enero de 2021 - Abril de 2022',
       description: [
-        'Desarrollo y mantenimiento de soluciones web a medida, contribuyendo a la presencia digital y empresarial.',
-        'Administración de bases de datos SQL Server, asegurando la integridad y seguridad de la información.',
         'Encargado de dictar capacitaciones al departamento técnico (Sistemas).',
-        'Gestión y optimización de inventario, asegurando la eficiencia y actualización constante de recursos.',
-        'Mantenimiento preventivo y correctivo de equipos informáticos, garantizando su óptimo funcionamiento.',
-        'Implementación y configuración de redes.'
+        'Administración de bases de datos SQL Server, garantizando integridad y seguridad.',
+        'Desarrollo de plataformas usando JavaScript y React, integradas con backend en PHP y bases de datos MySQL.'
       ]
     }
   ];
