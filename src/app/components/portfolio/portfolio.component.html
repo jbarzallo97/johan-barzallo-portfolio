@@ -3,8 +3,12 @@
     <h2>PORTAFOLIO</h2>
     <div class="galeria">
       <div class="proyecto" *ngFor="let item of portfolioItems">
-        <a [href]="item.link" target="_blank">
+        <a [href]="item.link" target="_blank" rel="noopener noreferrer" class="proyecto-link" (click)="onProjectClick($event)">
           <img [src]="item.image" [alt]="item.altText">
+          <div class="overlay">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+          </div>
         </a>
       </div>
     </div>
