@@ -25,4 +25,17 @@ export class HeaderComponent {
     nav?.classList.remove('responsive');
     this.menuVisible = false;
   }
+
+  goTo(event: Event, targetId: string) {
+    event.preventDefault();
+    const nav = document.getElementById('nav');
+    nav?.classList.remove('responsive');
+    this.menuVisible = false;
+
+    const el = document.getElementById(targetId);
+    if (el) {
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+  }
 }

@@ -5,12 +5,12 @@
     </div>
     <nav id="nav">
       <ul>
-        <li><a href="#inicio" (click)="seleccionar()">INICIO</a></li>
-        <li><a href="#sobremi" (click)="seleccionar()">SOBRE MI</a></li>
-        <li><a href="#skills" (click)="seleccionar()">HABILIDADES</a></li>
-        <li><a href="#curriculum" (click)="seleccionar()">CURRICULUM</a></li>
-        <li><a href="#portfolio" (click)="seleccionar()">PORTAFOLIO</a></li>
-        <li><a href="#contacto" (click)="seleccionar()">CONTACTO</a></li>
+        <li><a href="#inicio" (click)="goTo($event, 'inicio')">INICIO</a></li>
+        <li><a href="#sobremi" (click)="goTo($event, 'sobremi')">SOBRE MI</a></li>
+        <li><a href="#skills" (click)="goTo($event, 'skills')">HABILIDADES</a></li>
+        <li><a href="#curriculum" (click)="goTo($event, 'curriculum')">CURRICULUM</a></li>
+        <li><a href="#portfolio" (click)="goTo($event, 'portfolio')">PORTAFOLIO</a></li>
+        <li><a href="#contacto" (click)="goTo($event, 'contacto')">CONTACTO</a></li>
       </ul>
     </nav>
     <div class="nav-responsive" (click)="mostrarOcultarMenu()">
