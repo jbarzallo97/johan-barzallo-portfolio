@@ -15,6 +15,13 @@ export class PortfolioComponent {
       description: 'Plataforma que consume la API de Spotify y muestra top de artistas, canciones y playlists.'
     },
     {
+      link: 'https://jbarzallo97.github.io/calculatorAI-jb7/',
+      image: 'assets/img/portfolio7.png',
+      altText: 'CalcJB7 AI',
+      title: 'CalcJB7 AI',
+      description: 'Plataforma satírica sobre cómo todo ahora requiere suscripción premium. ¿Una calculadora que necesita pago? ¡Qué gracioso!'
+    },
+    {
       link: 'https://jbarzallo97.github.io/clipboard-landing-page-master-master/',
       image: 'assets/img/portfolio1.jpg',
       altText: 'Proyecto 1',
