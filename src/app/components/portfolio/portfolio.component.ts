@@ -8,6 +8,13 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   portfolioItems = [
     {
+      link: 'https://elijo.app/',
+      image: 'assets/img/portafolio8.png',
+      altText: 'Proyecto 1',
+      title: 'Elijo.app',
+      description: 'Plataforma para crear currículums de forma totalmente gratuita.'
+    },
+    {
       link: 'https://jbarzallo97.github.io/spotify-jb7/',
       image: 'assets/img/portfolio6.png',
       altText: 'Proyecto 1',
