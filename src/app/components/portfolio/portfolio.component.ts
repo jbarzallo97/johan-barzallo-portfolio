@@ -8,6 +8,13 @@ import { Component } from '@angular/core';
 export class PortfolioComponent {
   portfolioItems = [
     {
+      link: 'https://jbarzallo97.github.io/Naruto-Hand-Tracking/',
+      image: 'assets/img/portfolio9.png',
+      altText: 'Proyecto 2',
+      title: 'Naruto Hand Tracking',
+      description: 'Proyecto con visión por computadora para detección de manos en tiempo real directamente en el navegador.'
+    },
+    {
       link: 'https://elijo.app/',
       image: 'assets/img/portafolio8.png',
       altText: 'Proyecto 1',
@@ -42,13 +49,13 @@ export class PortfolioComponent {
       title: 'Movies App (Mobile)',
       description: 'Consumo de API de películas con detalle de cada título; orientada a versión mobile (abrir en celular).'
     },
-    {
-      link: 'https://jbarzallo97.github.io/angular-imagen-gif/',
-      image: 'assets/img/portfolio3.png',
-      altText: 'Proyecto 3',
-      title: 'GifsApp',
-      description: 'Buscador de GIFs en tiempo real con historial y paginación.'
-    },
+    // {
+    //   link: 'https://jbarzallo97.github.io/angular-imagen-gif/',
+    //   image: 'assets/img/portfolio3.png',
+    //   altText: 'Proyecto 3',
+    //   title: 'GifsApp',
+    //   description: 'Buscador de GIFs en tiempo real con historial y paginación.'
+    // },
     {
       link: 'https://jbarzallo97.github.io/country-App/',
       image: 'assets/img/portfolio4.png',
@@ -56,13 +63,13 @@ export class PortfolioComponent {
       title: 'Country App',
       description: 'Filtrado de países por capital, país y región; vista de detalle.'
     },
-    {
-      link: 'https://jbarzallo97.github.io/pipes-app/',
-      image: 'assets/img/portfolio5.png',
-      altText: 'Proyecto 5',
-      title: 'Pipes App',
-      description: 'Demostración de pipes personalizados y formateo de datos en Angular.'
-    }
+    // {
+    //   link: 'https://jbarzallo97.github.io/pipes-app/',
+    //   image: 'assets/img/portfolio5.png',
+    //   altText: 'Proyecto 5',
+    //   title: 'Pipes App',
+    //   description: 'Demostración de pipes personalizados y formateo de datos en Angular.'
+    // }
   ];
 
   onProjectClick(event: MouseEvent): void {

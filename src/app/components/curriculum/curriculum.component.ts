@@ -9,6 +9,11 @@ export class CurriculumComponent {
    // Datos de educación
    courses = [
     {
+      title: 'Docker - Guía práctica de uso para desarrolladores',
+      institution: 'Udemy',
+      date: '2026',
+    },
+    {
       title: 'Angular: De cero a experto - Edición 2025',
       institution: 'Udemy',
       date: '2025',
